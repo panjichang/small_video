@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">设置</string>
+    <string name="app_name">微视频</string>
+    <string name="app_description">Android drawer icon with material design animation</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+    <string name="load_more">加载中...</string>
+    <string name="load_error">加载失败,点击重试</string>
+    <string name="time_format">00:00</string>
+    <string name="action_recommend">推荐好友</string>
+    <string name="action_feedback">意见反馈</string>
+    <string name="action_search">搜索</string>
+    <string name="action_share">分享</string>
+    <string name="action_grade">赏个好评</string>
+    <string name="action_favoriter">收藏</string>
+    <string name="setting_factory">微时代工作室</string>
+    <string name="setting_factory_web">www.itlanbao.com</string>
+    <string name="setting_email">联系我们</string>
+    <string name="setting_email_username">邮箱 : pjc916568516@163.com</string>
+    <string name="setting_pay">捐助开发者</string>
+    <string name="setting_pay_username">支付宝帐号 : pjc916568516@163.com</string>
+
+    <string-array name="tab_names">
+        <item>所 有</item>
+        <item>分 类</item>
+    </string-array>
+    <string-array name="share">
+        <item>微信好友</item>
+        <item>朋友圈</item>
+        <item>QQ好友</item>
+        <item>QQ空间</item>
+        <item>新浪微博</item>
+        <item>腾讯微博</item>
+    </string-array>
+
+</resources>

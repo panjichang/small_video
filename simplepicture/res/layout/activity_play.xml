@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pan.simplepicture.widget.scrollview.OverScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/content_bg"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="20dp" >
+
+        <RelativeLayout
+            android:id="@+id/play_sreen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/user_comment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/card_frame"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+</com.pan.simplepicture.widget.scrollview.OverScrollView>

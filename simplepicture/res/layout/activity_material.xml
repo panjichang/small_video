@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.pan.simplepicture"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp" >
+
+    <com.pan.simplepicture.widget.MeterailEditText
+        android:id="@+id/et_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:hint="你的邮箱(选填)" />
+
+    <com.pan.simplepicture.widget.MeterailEditText
+        android:id="@+id/et_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:hint="视频标题"
+        android:textSize="15sp" />
+
+    <com.pan.simplepicture.widget.MeterailEditText
+        android:id="@+id/et_des"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:hint="视频描述"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_commit"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/btn_bg_selector"
+        android:text="提交"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#ffffffff"
+        android:textSize="15sp" />
+
+</LinearLayout>

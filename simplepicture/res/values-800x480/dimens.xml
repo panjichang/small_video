@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="navigation_cover_height">140.0dip</dimen>
+    <dimen name="navigation_drawer_width">240.0dip</dimen>
+    <dimen name="layout_user_tip">140.0dip</dimen>
+    <dimen name="item_card_about_video">160.0dip</dimen>
+    <dimen name="item_category_bg">180.0dip</dimen>
+    <dimen name="video_play_heigh">200.0dip</dimen>
+    <dimen name="no_comment_heigth">170.0dip</dimen>
+    <dimen name="tab_text_size">16.0sp</dimen>
+</resources>

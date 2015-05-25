@@ -1,0 +1,28 @@
+{"menu": [
+                {
+                    "name": "我的收藏",
+                    "icon": "ico_favorite.png",
+                     "id":1
+                },
+                {
+                    "name": "猜你喜欢",
+                    "icon": "ico_random.png",
+                     "id":2
+                },
+                {
+                    "name": "大家都在看",
+                    "icon": "ico_hot.png",
+                     "id":3
+                },
+                {
+                    "name": "提供素材",
+                    "icon": "ico_upload.png",
+                     "id":4
+                },
+                {
+                    "name": "设置",
+                    "icon": "ico_setting.png",
+                     "id":5
+                }
+            ]
+ }

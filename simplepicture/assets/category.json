@@ -1,0 +1,57 @@
+{"category": [
+				{
+                    "count": "0",
+                    "id": "0",
+                    "name": "创新设计",
+                    "icon": "category_cover_originality.jpg"
+                },
+                {
+                    "count": "1043",
+                    "id": "1",
+                    "name": "剧情短片",
+                    "icon": "category_cover_life.jpg"
+                },
+                {
+                    "count": "0",
+                    "id": "-1",
+                    "name": "精品应用",
+                    "icon": "category_cover_app.jpg"
+                },
+                {
+                    "count": "140",
+                    "id": "2",
+                    "name": "MV",
+                    "icon": "category_cover_fashion.jpg"
+                },
+                {
+                    "count": "225",
+                    "id": "3",
+                    "name": "广告/宣传",
+                    "icon": "category_cover_car.jpg"
+                },
+                {
+                    "count": "42",
+                    "id": "5",
+                    "name": "游戏CG",
+                    "icon": "category_cover_game.jpg"
+                },
+                {
+                    "count": "16",
+                    "id": "9",
+                    "name": "预告/花絮",
+                    "icon": "category_cover_journey.jpg"
+                },
+                {
+                    "count": "26",
+                    "id": "10",
+                    "name": "纪录片",
+                    "icon": "category_cover_tech.jpg"
+                },
+                {
+                    "count": "13",
+                    "id": "11",
+                    "name": "剧场版",
+                    "icon": "category_cover_qinzi.jpg"
+                }
+            ]
+ }

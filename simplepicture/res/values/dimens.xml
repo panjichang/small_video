@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="ldrawer_drawableSize">50.0dip</dimen>
+    <dimen name="ldrawer_barSize">18.0dip</dimen>
+    <dimen name="ldrawer_topBottomBarArrowSize">11.0dip</dimen>
+    <dimen name="ldrawer_thickness">2.0dip</dimen>
+    <dimen name="ldrawer_gapBetweenBars">3.0dip</dimen>
+    <dimen name="ldrawer_middleBarArrowSize">16.0dip</dimen>
+    <dimen name="navdrawer_width">290.0dip</dimen>
+    <dimen name="pagertab_height">45dp</dimen>
+    <dimen name="list_item_loadmore_padding">5dp</dimen>
+    <dimen name="list_item_loadmore_height">55dp</dimen>
+     <dimen name="list_item_margin">9dp</dimen>
+</resources>

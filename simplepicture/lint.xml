@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DuplicateActivity" severity="ignore" />
+    <issue id="NewApi" severity="ignore" />
+    <issue id="Orientation" severity="ignore" />
+    <issue id="ResourceAsColor" severity="ignore" />
+    <issue id="ValidFragment" severity="ignore" />
+    <issue id="WrongCall" severity="ignore" />
+</lint>

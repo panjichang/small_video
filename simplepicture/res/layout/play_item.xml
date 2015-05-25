@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/rl_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <com.baidu.cyberplayer.core.BVideoView
+                android:id="@+id/video_view"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/video_play_heigh"
+                android:background="@android:color/black" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/controlbar"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/video_play_heigh"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:visibility="gone" >
+
+            <ImageButton
+                android:id="@+id/play_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/play_btn_style" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/time_current"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/time_format"
+                    android:textColor="@android:color/white"
+                    android:textSize="15.0sp"
+                    android:textStyle="bold" />
+
+                <SeekBar
+                    android:id="@+id/media_progress"
+                    style="@android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0.0dip"
+                    android:layout_height="30.0dip"
+                    android:layout_weight="1.0" />
+
+                <TextView
+                    android:id="@+id/time_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/time_format"
+                    android:textColor="@android:color/white"
+                    android:textSize="15.0sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/zoom_btn"
+                    android:layout_width="45.0dip"
+                    android:layout_height="45.0dip"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/screensize_zoomout_button" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/VideoAction"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/video_play_heigh"
+            android:layout_alignParentTop="true" >
+
+            <in.srain.cube.image.CubeImageView
+                android:id="@+id/detailPic"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:adjustViewBounds="false"
+                android:background="@drawable/ic_tv_rest"
+                android:contentDescription="@null"
+                android:scaleType="fitXY" />
+
+            <ImageButton
+                android:id="@+id/pre_play_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/play_btn_style"
+                android:contentDescription="@null" />
+
+            <com.romainpiel.shimmer.ShimmerTextView
+                android:id="@+id/shimmer_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/app_name"
+                android:textColor="#ff444444"
+                android:textSize="16.0sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/card_frame"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="5dp"
+            android:singleLine="true"
+            android:text="内在的力量"
+            android:textColor="@color/comment_text_color"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/play_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:singleLine="true"
+                android:text="播放:407"
+                android:textColor="@color/textColor"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="4dp"
+            android:background="#33000000" />
+
+        <TextView
+            android:id="@+id/des"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="2dp"
+            android:padding="8dp"
+            android:textColor="@color/textColor"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

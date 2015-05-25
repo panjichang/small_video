@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="4dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="4dp" >
+
+    <LinearLayout
+        android:id="@+id/ll_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_frame"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/store_house_ptr_image_content"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/item_card_about_video">
+
+            <in.srain.cube.image.CubeImageView
+                android:id="@+id/iv_cube"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/item_card_about_video"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_tv_rest" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:background="#33000000"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/duration"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textColor="#fff"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/ic_play" >
+                </ImageView>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="#ffffffff"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:textColor="#66000000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</RelativeLayout>
